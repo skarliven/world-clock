@@ -25,14 +25,14 @@
         <h1 class="text-center mt-3">World Clocks</h1>
         <p class="text-center">Find current time, weather, sun, moon, and much more..</p>
         <!-- items -->
-        <select class="mt-5">
+        <select id="city" class="mt-5">
             <option value="">Select a city...</option>
-            <option value="">London 🇬🇧</option>
-            <option value="">Caracas 🇻🇪</option>
-            <option value="">Peru 🇵🇪</option>
-            <option value="">Argentina 🇦🇷</option>
-            <option value="">New York 🇺🇸</option>
-            <option value="">Paris 🇫🇷</option>
+            <option value="Europe/London">London 🇬🇧</option>
+            <option value="Europe/Paris">Paris 🇫🇷</option>
+            <option value="America/Lima">Peru 🇵🇪</option>
+            <option value="America/Argentina/Buenos_Aires">Argentina 🇦🇷</option>
+            <option value="America/New_York">New York 🇺🇸</option>
+           
         </select>
 
         <div id="cities">
@@ -43,9 +43,9 @@
               </div>
               <div class="time"></div>
             </div>
-            <div class="city" id="paris">
+            <div class="city" id="caracas">
               <div>
-                <h2>Paris</h2>
+                <h2>Caracas</h2>
                 <div class="date"></div>
               </div>
               <div class="time"></div>
